@@ -1,4 +1,4 @@
-<?php namespace Maatwebsite\Excel\Files;
+<?php namespace MrJohnMain\Excel\Files;
 
 interface ImportHandler {
 

@@ -1,11 +1,11 @@
-<?php namespace Maatwebsite\Excel;
+<?php namespace MrJohnMain\Excel;
 
 use Closure;
-use Maatwebsite\Excel\Readers\Batch;
-use Maatwebsite\Excel\Classes\PHPExcel;
-use Maatwebsite\Excel\Readers\LaravelExcelReader;
-use Maatwebsite\Excel\Writers\LaravelExcelWriter;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use MrJohnMain\Excel\Readers\Batch;
+use MrJohnMain\Excel\Classes\PHPExcel;
+use MrJohnMain\Excel\Readers\LaravelExcelReader;
+use MrJohnMain\Excel\Writers\LaravelExcelWriter;
+use MrJohnMain\Excel\Exceptions\LaravelExcelException;
 
 /**
  *
@@ -13,9 +13,9 @@ use Maatwebsite\Excel\Exceptions\LaravelExcelException;
  *
  * @category   Laravel Excel
  * @version    1.0.0
- * @package    maatwebsite/excel
- * @copyright  Copyright (c) 2013 - 2014 Maatwebsite (http://www.maatwebsite.nl)
- * @author     Maatwebsite <info@maatwebsite.nl>
+ * @package    mrjohnmain/excel
+ * @copyright  Copyright (c) 2013 - 2014 MrJohnMain (http://www.mrjohnmain.nl)
+ * @author     MrJohnMain <info@mrjohnmain.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
 class Excel {

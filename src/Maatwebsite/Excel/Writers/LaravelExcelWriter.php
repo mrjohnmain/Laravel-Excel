@@ -1,13 +1,13 @@
-<?php namespace Maatwebsite\Excel\Writers;
+<?php namespace MrJohnMain\Excel\Writers;
 
 use Closure;
 use Carbon\Carbon;
 use PHPExcel_IOFactory;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Response;
-use Maatwebsite\Excel\Classes\FormatIdentifier;
-use Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use MrJohnMain\Excel\Classes\FormatIdentifier;
+use MrJohnMain\Excel\Classes\LaravelExcelWorksheet;
+use MrJohnMain\Excel\Exceptions\LaravelExcelException;
 use Symfony\Component\Finder\Exception\AccessDeniedException;
 
 /**
@@ -16,9 +16,9 @@ use Symfony\Component\Finder\Exception\AccessDeniedException;
  *
  * @category   Laravel Excel
  * @version    1.0.0
- * @package    maatwebsite/excel
- * @copyright  Copyright (c) 2013 - 2014 Maatwebsite (http://www.maatwebsite.nl)
- * @author     Maatwebsite <info@maatwebsite.nl>
+ * @package    mrjohnmain/excel
+ * @copyright  Copyright (c) 2013 - 2014 MrJohnMain (http://www.mrjohnmain.nl)
+ * @author     MrJohnMain <info@mrjohnmain.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
 class LaravelExcelWriter {

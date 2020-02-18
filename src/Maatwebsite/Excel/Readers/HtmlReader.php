@@ -1,4 +1,4 @@
-<?php namespace Maatwebsite\Excel\Readers;
+<?php namespace MrJohnMain\Excel\Readers;
 
 use PHPExcel;
 use DOMNode;
@@ -14,8 +14,8 @@ use PHPExcel_Style_Font;
 use PHPExcel_Style_Border;
 use PHPExcel_Worksheet_Drawing;
 use PHPExcel_Style_Alignment;
-use Maatwebsite\Excel\Parsers\CssParser;
-use Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
+use MrJohnMain\Excel\Parsers\CssParser;
+use MrJohnMain\Excel\Classes\LaravelExcelWorksheet;
 
 /**
  *
@@ -23,10 +23,10 @@ use Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
  *
  * @category   Laravel Excel
  * @version    2.0.0
- * @package    maatwebsite/excel
- * @copyright  Copyright (c) 2013 - 2014 Maatwebsite (http://www.maatwebsite.nl)
+ * @package    mrjohnmain/excel
+ * @copyright  Copyright (c) 2013 - 2014 MrJohnMain (http://www.mrjohnmain.nl)
  * @copyright  Original Copyright (c) 2006 - 2014 PHPExcel (http://www.codeplex.com/PHPExcel)
- * @author     Maatwebsite <info@maatwebsite.nl>
+ * @author     MrJohnMain <info@mrjohnmain.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
 class Html extends PHPExcel_Reader_HTML {

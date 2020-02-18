@@ -1,18 +1,18 @@
-<?php namespace Maatwebsite\Excel;
+<?php namespace MrJohnMain\Excel;
 
 use PHPExcel_Settings;
 use PHPExcel_Shared_Font;
-use Maatwebsite\Excel\Readers\Html;
-use Maatwebsite\Excel\Classes\Cache;
-use Maatwebsite\Excel\Classes\PHPExcel;
+use MrJohnMain\Excel\Readers\Html;
+use MrJohnMain\Excel\Classes\Cache;
+use MrJohnMain\Excel\Classes\PHPExcel;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Response;
-use Maatwebsite\Excel\Parsers\CssParser;
-use Maatwebsite\Excel\Parsers\ViewParser;
-use Maatwebsite\Excel\Classes\FormatIdentifier;
-use Maatwebsite\Excel\Readers\LaravelExcelReader;
-use Maatwebsite\Excel\Writers\LaravelExcelWriter;
+use MrJohnMain\Excel\Parsers\CssParser;
+use MrJohnMain\Excel\Parsers\ViewParser;
+use MrJohnMain\Excel\Classes\FormatIdentifier;
+use MrJohnMain\Excel\Readers\LaravelExcelReader;
+use MrJohnMain\Excel\Writers\LaravelExcelWriter;
 use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 use Laravel\Lumen\Application as LumenApplication;
 
@@ -21,9 +21,9 @@ use Laravel\Lumen\Application as LumenApplication;
  * LaravelExcel Excel ServiceProvider
  *
  * @category   Laravel Excel
- * @package    maatwebsite/excel
- * @copyright  Copyright (c) 2013 - 2014 Maatwebsite (http://www.maatwebsite.nl)
- * @author     Maatwebsite <info@maatwebsite.nl>
+ * @package    mrjohnmain/excel
+ * @copyright  Copyright (c) 2013 - 2014 MrJohnMain (http://www.mrjohnmain.nl)
+ * @author     MrJohnMain <info@mrjohnmain.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
 class ExcelServiceProvider extends ServiceProvider {

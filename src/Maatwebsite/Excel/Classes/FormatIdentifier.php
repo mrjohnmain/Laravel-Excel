@@ -1,8 +1,8 @@
-<?php namespace Maatwebsite\Excel\Classes;
+<?php namespace MrJohnMain\Excel\Classes;
 
 use PHPExcel_IOFactory;
 use Illuminate\Filesystem\Filesystem;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use MrJohnMain\Excel\Exceptions\LaravelExcelException;
 
 class FormatIdentifier {
 

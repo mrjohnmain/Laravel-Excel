@@ -1,26 +1,26 @@
-<?php namespace Maatwebsite\Excel\Readers;
+<?php namespace MrJohnMain\Excel\Readers;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Support\Facades\Queue;
-use Maatwebsite\Excel\Classes\PHPExcel;
+use MrJohnMain\Excel\Classes\PHPExcel;
 use PHPExcel_Cell;
 use PHPExcel_IOFactory;
 use PHPExcel_Cell_IValueBinder;
 use PHPExcel_Cell_DefaultValueBinder;
 use Illuminate\Filesystem\Filesystem;
-use Maatwebsite\Excel\Parsers\ExcelParser;
-use Maatwebsite\Excel\Classes\FormatIdentifier;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use MrJohnMain\Excel\Parsers\ExcelParser;
+use MrJohnMain\Excel\Classes\FormatIdentifier;
+use MrJohnMain\Excel\Exceptions\LaravelExcelException;
 
 /**
  * LaravelExcel Excel reader
  *
  * @category   Laravel Excel
  * @version    1.0.0
- * @package    maatwebsite/excel
- * @copyright  Copyright (c) 2013 - 2014 Maatwebsite (http://www.maatwebsite.nl)
- * @author     Maatwebsite <info@maatwebsite.nl>
+ * @package    mrjohnmain/excel
+ * @copyright  Copyright (c) 2013 - 2014 MrJohnMain (http://www.mrjohnmain.nl)
+ * @author     MrJohnMain <info@mrjohnmain.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
 class LaravelExcelReader
@@ -84,7 +84,7 @@ class LaravelExcelReader
     /**
      * The parsed file
      *
-     * @var \Maatwebsite\Excel\Collections\RowCollection|\Maatwebsite\Excel\Collections\SheetCollection
+     * @var \MrJohnMain\Excel\Collections\RowCollection|\MrJohnMain\Excel\Collections\SheetCollection
      */
     public $parsed;
 
@@ -1013,7 +1013,7 @@ class LaravelExcelReader
      *
      * @param  $separator
      *
-     * @return \Maatwebsite\Excel\Readers\LaraveExcelReader
+     * @return \MrJohnMain\Excel\Readers\LaraveExcelReader
      */
     public function setSeperator($separator)
     {

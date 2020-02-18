@@ -1,13 +1,13 @@
-<?php namespace Maatwebsite\Excel\Collections;
+<?php namespace MrJohnMain\Excel\Collections;
 
 /**
  *
  * LaravelExcel CellCollection
  *
  * @category   Laravel Excel
- * @package    maatwebsite/excel
- * @copyright  Copyright (c) 2013 - 2014 Maatwebsite (http://www.maatwebsite.nl)
- * @author     Maatwebsite <info@maatwebsite.nl>
+ * @package    mrjohnmain/excel
+ * @copyright  Copyright (c) 2013 - 2014 MrJohnMain (http://www.mrjohnmain.nl)
+ * @author     MrJohnMain <info@mrjohnmain.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
 class CellCollection extends ExcelCollection {
@@ -15,7 +15,7 @@ class CellCollection extends ExcelCollection {
     /**
      * Create a new collection.
      * @param  array $items
-     * @return \Maatwebsite\Excel\Collections\CellCollection
+     * @return \MrJohnMain\Excel\Collections\CellCollection
      */
     public function __construct(array $items = [])
     {

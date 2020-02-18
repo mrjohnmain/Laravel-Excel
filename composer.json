@@ -1,5 +1,5 @@
 {
-  "name": "maatwebsite/excel",
+  "name": "mrjohnmain/excel",
   "description": "Supercharged Excel exports in Laravel",
   "license": "MIT",
   "keywords": [
@@ -13,8 +13,8 @@
   ],
   "authors": [
     {
-      "name": "Maatwebsite.nl",
-      "email": "patrick@maatwebsite.nl"
+      "name": "MrJohnMain.nl",
+      "email": "patrick@mrjohnmain.nl"
     }
   ],
   "require": {
@@ -42,10 +42,10 @@
   },
   "autoload": {
     "classmap": [
-      "src/Maatwebsite/Excel"
+      "src/MrJohnMain/Excel"
     ],
     "psr-0": {
-      "Maatwebsite\\Excel\\": "src/"
+      "MrJohnMain\\Excel\\": "src/"
     }
   },
   "autoload-dev": {
@@ -56,10 +56,10 @@
   "extra": {
         "laravel": {
             "providers": [
-                "Maatwebsite\\Excel\\ExcelServiceProvider"
+                "MrJohnMain\\Excel\\ExcelServiceProvider"
             ],
             "aliases": {
-                "Excel": "Maatwebsite\\Excel\\Facades\\Excel"
+                "Excel": "MrJohnMain\\Excel\\Facades\\Excel"
             }
         }
     }
