@@ -19,7 +19,7 @@
   ],
   "require": {
     "php": ">=7.3",
-    "phpoffice/phpexcel": "^1.8.1",
+    "phpoffice/phpexcel": "dev-1.8",
     "jeremeamia/superclosure": "^2.3",
     "nesbot/carbon": "~2.0",
     "tijsverkoyen/css-to-inline-styles": "~2.0"
