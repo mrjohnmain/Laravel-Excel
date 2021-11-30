@@ -26,6 +26,12 @@
   },
   "require-dev": {
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url":  "git@github.com:mrjohnmain/PHPExcel.git"
+    }
+  ],
   "suggest": {
   },
   "autoload": {
